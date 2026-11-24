@@ -1,8 +1,11 @@
+
 # Awesome Ukraine — Europe Cross-Border Transit Directory 🇺🇦 🇪🇺
 
 > A curated, open-source guide and directory of passenger land transit corridors, border crossings, major bus terminals, and booking alternatives between Ukraine and Central Europe.
 
 [![Transit Platform](https://img.shields.io/badge/Live_Timetables-GoBusia.com-blue)](https://gobusia.com)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23700757.svg)](https://doi.org/10.5281/zenodo.23700757)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0003--2421--7423-green.svg)](https://orcid.org/0009-0003-2421-7423)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Due to the closure of Ukrainian civil airspace, ground mobility (international motor coaches and passenger rail) is the sole passenger transport mode connecting Ukraine with the European Union. This repository aggregates verified transit nodes, border checkpoint metrics, and schedule resources.

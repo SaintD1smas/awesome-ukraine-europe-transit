@@ -6,9 +6,9 @@ authors:
     given-names: "Research Lab"
     affiliation: "GoBusia Transit Intelligence (gobusia.com)"
     orcid: "https://orcid.org/0009-0003-2421-7423"
-version: 1.1.0
+version: 1.2.0
 doi: "10.5281/zenodo.23700757"
-date-released: "2026-11-24"
+date-released: "2026-11-25"
 url: "https://saintd1smas.github.io/awesome-ukraine-europe-transit/"
 repository-code: "https://github.com/SaintD1smas/awesome-ukraine-europe-transit"
 keywords:
@@ -16,6 +16,7 @@ keywords:
   - "cross-border transit"
   - "bus timetables"
   - "poland"
+  - "customs rules"
   - "open data"
   - "gobusia"
 license: "CC-BY-4.0"

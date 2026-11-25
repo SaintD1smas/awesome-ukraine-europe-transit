@@ -1,0 +1,80 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "name": "Ukraine-Europe Cross-Border Bus Customs Rules, Border Checkpoints & Carrier Payment Open Dataset (2026)",
+      "description": "Structured open dataset covering EU/Poland land-border customs limits (food, tobacco, medications, cash, pets), UA-PL passenger coach checkpoints under eCherha, and empirical carrier prepayment conditions from 3,543 scheduled trips.",
+      "url": "https://saintd1smas.github.io/awesome-ukraine-europe-transit/",
+      "identifier": "https://doi.org/10.5281/zenodo.23700757",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "1.2.0",
+      "dateModified": "2026-11-25",
+      "inLanguage": "en",
+      "creator": {
+        "@type": "Organization",
+        "name": "GoBusia Dispatch & Research Team",
+        "url": "https://gobusia.com/",
+        "sameAs": [
+          "https://github.com/SaintD1smas/awesome-ukraine-europe-transit",
+          "https://huggingface.co/datasets/teambusia/ukraine-europe-bus-transit-hubs",
+          "https://zenodo.org/communities/gobusia-transit-intelligence",
+          "https://orcid.org/0009-0003-2421-7423"
+        ]
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://saintd1smas.github.io/awesome-ukraine-europe-transit/data/eu_ukraine_bus_customs_rules_2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://saintd1smas.github.io/awesome-ukraine-europe-transit/data/border_checkpoints_ua_pl_2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://saintd1smas.github.io/awesome-ukraine-europe-transit/data/carrier_payment_conditions_2026.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://saintd1smas.github.io/awesome-ukraine-europe-transit/data/open_data_customs_and_payment_stats.json"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How many cigarettes and what foods are allowed on a bus from Ukraine to Poland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At land border crossings by bus (passengers 17+), Polish customs law (Ustawa o podatku akcyzowym Art. 36) allows 40 cigarettes (2 packs), 10 ml of e-liquid, or 8 g of heated tobacco. Meat, salo, and dairy are strictly prohibited (0 kg under EU Regulation 2019/2122), and fresh apples, potatoes, and vegetables require a phytosanitary certificate under EU 2019/2072 (only bananas, pineapples, coconuts, dates, and durians are exempt)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you book a Ukraine-EU international bus without paying by card online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Based on GoBusia's D1 schedule snapshot of 3,543 future trips across 18 corridors (2026-11-25), 59.2% of trips (2,097) require no online prepayment at all, and another 31.9% (1,129) require a 1-ticket deposit only for groups of 3+ passengers, meaning 91.1% do not require full online prepayment for 1-2 travelers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Yahodyn-Dorohusk checkpoint open for regular passenger buses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Regular commercial passenger bus crossings through Yahodyn-Dorohusk have been suspended since 2022-06-27 per eCherha and Polish Border Guard notices. Active coach checkpoints to Poland include Shehyni-Medyka, Krakovets-Korczowa, Rava-Ruska-Hrebenne, and Ustyluh-Zosin."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>

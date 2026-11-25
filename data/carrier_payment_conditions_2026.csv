@@ -1,0 +1,9 @@
+snapshot_date,sample_scope,payment_condition_code,payment_rule_summary,trips_count,share_pct,applies_to_1_2_passengers_no_online_prepay,source_table
+2026-11-25,"3543 future trips across 18 active routes",none,"No prepayment required; cash or terminal payment to driver at boarding after dispatcher confirmation",2097,59.2,true,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-25,"3543 future trips across 18 active routes",deposit_3plus,"1-ticket deposit required only for bookings of 3+ passengers; 1-2 passengers board without prepayment",1129,31.9,true,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-25,"3543 future trips across 18 active routes",full_online,"100% online prepayment required at booking",302,8.5,false,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-25,"3543 future trips across 18 active routes",promo_special,"Special promotional prepayment conditions",15,0.4,false,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-22,"683 trips across 60 international routes (baseline)",none,"No prepayment required at booking",366,53.6,true,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-22,"683 trips across 60 international routes (baseline)",deposit_3plus,"1-ticket deposit only for 3+ passengers",192,28.1,true,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-22,"683 trips across 60 international routes (baseline)",full_online,"100% online prepayment required",113,16.5,false,"GoBusia D1 gobusia_prod_db.schedule_cells"
+2026-11-22,"1735 trips extended sample",none,"No prepayment required at booking",1065,61.4,true,"GoBusia D1 gobusia_prod_db.schedule_cells"

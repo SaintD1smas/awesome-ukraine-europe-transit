@@ -1,0 +1,57 @@
+{
+  "dataset_title": "EU-Ukraine Cross-Border Bus Customs Rules (2026) & No-Prepayment Carrier Breakdown",
+  "version": "1.2.0",
+  "updated_at": "2026-11-25",
+  "license": "CC-BY-4.0",
+  "curator": {
+    "name": "GoBusia Dispatch & Research Team (Dmitry)",
+    "orcid": "https://orcid.org/0009-0003-2421-7423",
+    "url": "https://gobusia.com/"
+  },
+  "doi": "10.5281/zenodo.23700757",
+  "methodology": "Customs limits verified against EUR-Lex (2019/2122, 2021/630, 2016/2031, 2019/2072, 576/2013), Polish KAS (podatki.gov.pl), GIF (gif.gov.pl), and Ukrainian Customs/DPSU. Payment conditions aggregated from GoBusia D1 schedule_cells snapshots (2026-11-22 and 2026-11-25). Ticket prices are intentionally omitted because carrier fares vary dynamically.",
+  "payment_stats_2026_11_25": {
+    "total_future_trips": 3543,
+    "active_corridors": 18,
+    "no_prepayment_none_count": 2097,
+    "no_prepayment_none_pct": 59.2,
+    "deposit_3plus_count": 1129,
+    "deposit_3plus_pct": 31.9,
+    "combined_no_full_online_prepay_1_2_pax_pct": 91.1,
+    "full_online_prepay_count": 302,
+    "full_online_prepay_pct": 8.5,
+    "promo_special_count": 15,
+    "promo_special_pct": 0.4
+  },
+  "payment_stats_baseline_2026_11_22": {
+    "sample_683_trips_60_routes": {
+      "no_prepayment_none_pct": 53.6,
+      "deposit_3plus_pct": 28.1,
+      "full_online_prepay_pct": 16.5
+    },
+    "extended_sample_1735_trips": {
+      "no_prepayment_none_pct": 61.4
+    }
+  },
+  "kyiv_warsaw_schedule_snapshot_2026_11_22": {
+    "window": "2026-11-23..2026-12-13",
+    "daily_range_trips": "97-214",
+    "weekday_mean": {
+      "Mon": 171.0,
+      "Tue": 149.0,
+      "Wed": 192.3,
+      "Thu": 189.0,
+      "Fri": 203.0,
+      "Sat": 186.7,
+      "Sun": 168.3
+    }
+  },
+  "canonical_references": [
+    "https://gobusia.com/blog/shcho-mozhna-vozyty-cherez-kordon-avtobusom/",
+    "https://gobusia.com/blog/oplata-pry-posadtsi/",
+    "https://gobusia.com/kyiv-warsaw/",
+    "https://gobusia.com/warsaw-kyiv/",
+    "https://gobusia.com/chisinau-kyiv/",
+    "https://gobusia.com/avtobusy-z-aeroportu-shopena/"
+  ]
+}
